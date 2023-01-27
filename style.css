@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    }
+.WebPageContainer{
+ margin: 40px 20px 0 20px;  /*top right bottom left*/
+
+}
+.WebPageContainer .TableForImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.WebPageContainer .TableForImages .EditImages{
+    display:flex;
+    flex-direction: column;
+    width:32.5%;
+}
+.WebPageContainer .TableForImages .EditImages img{
+    width:100%;
+    padding-bottom: 15px;
+    
+    border-radius:5px;
+    border:solid black;
+}
+@media screen and (max-width :749px){
+    
+}
